@@ -1,13 +1,13 @@
 {
   "functions": {
-    "api/*.php": {
+    "web/*.php": {
       "runtime": "vercel-php@0.7.1"
     }
   },
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/spk_wisata_wp.php"
+      "dest": "/web/spk_wisata_wp.php"
     }
   ]
 }
